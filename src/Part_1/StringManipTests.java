@@ -9,7 +9,7 @@ class StringManipTests {
 	@Test
 	void test() {
 		String letters = "These are the letters with which I would like to use in order to compose my message";
-		String message = "This is the message I want to write.";
+		String message = "This is the message I want to write";
 		assertTrue(checkRansomNote(letters, message));
 		
 		letters = "some words";
